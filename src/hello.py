@@ -60,9 +60,9 @@ def reset_or_initialize_state():
 
 page_names_to_funcs = {
     "—": intro,
-    "Lectures": transcript_questions,
-    "Course Readings": reading_questions,
     "SA & KC": review_questions,
+    "Course Readings": reading_questions,
+    "Lecture Videos": transcript_questions,
     "Open Ended": open_ended_questions,
     "Charts & Code": chart_questions
 }

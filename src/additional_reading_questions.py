@@ -660,6 +660,65 @@ week5_mpc_question_10 = {
 
 ########################week_6_An Evaluation of Risk Metrics#######
 
+week6_mpc_question_1 = {
+    'question': "What is the primary purpose of using risk metrics in portfolio management?",
+    'options_list': [
+        'To eliminate all forms of financial risk.',
+        'To precisely predict future portfolio performance.',
+        'To quantify the uncertainty of outcomes and aid in portfolio construction and performance assessment.',
+        'To guarantee a certain level of returns on investments.'
+    ],
+    'correct_answer': 'To quantify the uncertainty of outcomes and aid in portfolio construction and performance assessment.',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_mpc_question_2 = {
+    'question': "Which of the following is considered an absolute risk measure?",
+    'options_list': [
+        'Beta',
+        'Sharpe Ratio',
+        'Standard Deviation',
+        'Tracking Error'
+    ],
+    'correct_answer': 'Standard Deviation',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_mpc_question_3 = {
+    'question': "Historical Value-at-Risk (VaR) is based on:",
+    'options_list': [
+        'The average return of the worst-case scenarios.',
+        'A security’s worst results over a given period.',
+        'The median return of the investment portfolio.',
+        'The expected return calculated from the asset’s beta.'
+    ],
+    'correct_answer': 'A security’s worst results over a given period.',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_mpc_question_4 = {
+    'question': "Which risk metric is most concerned with the frequency of negative returns?",
+    'options_list': [
+        'Shortfall Risk',
+        'Risk of Loss',
+        'Value-at-Risk (VaR)',
+        'Standard Deviation'
+    ],
+    'correct_answer': 'Risk of Loss',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_mpc_question_5 = {
+    'question': "The Sharpe Ratio measures:",
+    'options_list': [
+        'An asset’s return above or below that of a benchmark.',
+        'The risk-adjusted return of a portfolio or security.',
+        'The standard deviation of excess return.',
+        'The magnitude of an investment’s fluctuations relative to the market.'
+    ],
+    'correct_answer': 'The risk-adjusted return of a portfolio or security.',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
 
 
 
