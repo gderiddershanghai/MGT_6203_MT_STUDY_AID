@@ -1,5 +1,5 @@
 
-def sa_questions():
+def generate_transcript_questions():
 
     import streamlit as st
     from src.states import Token
@@ -22,8 +22,8 @@ def sa_questions():
 
     # Check if 'token' is already in the session state, otherwise initialize it
     if 'token' not in st.session_state:
-        st.session_state.token = Token(STATE='review')
-        st.session_state.token.initialize_mpc_questions()
+        st.session_state.token = Token(STATE='transcript')
+        st.session_state.token.initialize_transcript_questions()
 
     apply_custom_css()
     questions = st.session_state.token.mpc_questions

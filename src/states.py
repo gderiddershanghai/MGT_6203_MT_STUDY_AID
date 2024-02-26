@@ -1,5 +1,9 @@
 import numpy as np
-from src.mpc_questions import COURSE_MPC_QUESTIONS
+from src.sa_hw_questions import COURSE_MPC_QUESTIONS
+from src.transcript_questions import TRANSCRIPT_MPC_QUESTIONS
+from src.knowledge_check_questions import KC_MPC_QUESTIONS
+from src.additional_reading_questions import READING_MPC_QUESTIONS
+
 #====================TOKEN===================
 class Token():
     def __init__(self, STATE="final"):
@@ -9,12 +13,34 @@ class Token():
         self.islr_questions = None
 
     def initialize_mpc_questions(self):
-        self.STATE = 'mpc'
-        list_length = len(COURSE_MPC_QUESTIONS)-1
+        self.STATE = 'review'
+        review_questions = COURSE_MPC_QUESTIONS + KC_MPC_QUESTIONS
+        list_length = len(review_questions)
         mpc_idxs = np.random.choice(range(list_length), size=4, replace=False)
         print('______________________________________________')
         print('mpc_idxs: ',mpc_idxs, type(mpc_idxs))
-        # print(COURSE_MPC_QUESTIONS[-2])
         print('______________________________________________')
         for idx in mpc_idxs:
-            self.mpc_questions.append(COURSE_MPC_QUESTIONS[idx])
+            self.mpc_questions.append(review_questions[idx])
+
+    def initialize_transcript_questions(self):
+        self.STATE = 'transcript'
+        review_questions = TRANSCRIPT_MPC_QUESTIONS
+        list_length = len(review_questions)
+        mpc_idxs = np.random.choice(range(list_length), size=4, replace=False)
+        print('______________________________________________')
+        print('mpc_idxs: ',mpc_idxs, type(mpc_idxs))
+        print('______________________________________________')
+        for idx in mpc_idxs:
+            self.mpc_questions.append(review_questions[idx])
+
+    def initialize_reading_questions(self):
+        self.STATE = 'reading'
+        review_questions = READING_MPC_QUESTIONS
+        list_length = len(review_questions)
+        mpc_idxs = np.random.choice(range(list_length), size=4, replace=False)
+        print('______________________________________________')
+        print('mpc_idxs: ',mpc_idxs, type(mpc_idxs))
+        print('______________________________________________')
+        for idx in mpc_idxs:
+            self.mpc_questions.append(review_questions[idx])

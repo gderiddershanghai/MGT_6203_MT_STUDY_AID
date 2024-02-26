@@ -212,3 +212,5 @@ global_items = list(globals().items())
 for name, value in global_items:
     if not name.startswith('_'):
         COURSE_MPC_QUESTIONS.append(value)
+
+COURSE_MPC_QUESTIONS = COURSE_MPC_QUESTIONS[:-1]
