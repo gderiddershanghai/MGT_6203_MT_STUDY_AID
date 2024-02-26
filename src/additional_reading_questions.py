@@ -720,6 +720,50 @@ week6_mpc_question_5 = {
     'chapter_information': 'week_6_An Evaluation of Risk Metrics'
 }
 
+week6_mpc_question_8 = {
+    'question': "Value at Risk (VaR) measures:",
+    'options_list': [
+        'The maximum expected loss over a given time period at a specific confidence level.',
+        'The average return of a portfolio over its entire history.',
+        'The volatility of a portfolio compared to its benchmark.',
+        'The return on investment for the top-performing assets in a portfolio.'
+    ],
+    'correct_answer': 'The maximum expected loss over a given time period at a specific confidence level.',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_mpc_question_9 = {
+    'question': "Conditional Value at Risk (CVaR) is:",
+    'options_list': [
+        'The same as Value at Risk, but calculated using conditional probabilities.',
+        'The expected loss exceeding VaR in the worst-case scenarios.',
+        'A measure that ignores the tail risk beyond the VaR threshold.',
+        'Calculated without considering the distribution of returns.'
+    ],
+    'correct_answer': 'The expected loss exceeding VaR in the worst-case scenarios.',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_tf_question_1 = {
+    'question': "Beta is a measure of an asset's volatility in comparison to the overall market's volatility.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_tf_question_2 = {
+    'question': "The Sharpe Ratio can be negative if the portfolio's return is less than the risk-free rate.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
+
+week6_tf_question_3 = {
+    'question': "Standard deviation is a risk metric that penalizes both upside and downside volatility equally.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'chapter_information': 'week_6_An Evaluation of Risk Metrics'
+}
 
 
 
