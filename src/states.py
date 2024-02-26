@@ -1,10 +1,20 @@
+import numpy as np
+from src.mpc_questions import COURSE_MPC_QUESTIONS
 #====================TOKEN===================
 class Token():
     def __init__(self, STATE="final"):
         self.STATE = STATE
-        self.mpc_questions = None
+        self.mpc_questions = []
         self.picture_questions = None
         self.islr_questions = None
 
-    def turn_off(self):
-        self.active = False
+    def initialize_mpc_questions(self):
+        self.STATE = 'mpc'
+        list_length = len(COURSE_MPC_QUESTIONS)-1
+        mpc_idxs = np.random.choice(range(list_length), size=4, replace=False)
+        print('______________________________________________')
+        print('mpc_idxs: ',mpc_idxs, type(mpc_idxs))
+        # print(COURSE_MPC_QUESTIONS[-2])
+        print('______________________________________________')
+        for idx in mpc_idxs:
+            self.mpc_questions.append(COURSE_MPC_QUESTIONS[idx])

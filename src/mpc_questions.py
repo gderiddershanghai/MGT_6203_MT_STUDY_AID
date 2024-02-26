@@ -205,27 +205,10 @@ sa4_question_10 = {
 }
 
 
-# COURSE_MPC_QUESTIONS = []
-# if __name__ == "__main__":
-#     # prints all variable names
-#     for name in dir():
-#         # Check if the name does not start with '_'
-#         if not name.startswith('_'):
-#             COURSE_MPC_QUESTIONS.append(name)
-#     print(COURSE_MPC_QUESTIONS)
+COURSE_MPC_QUESTIONS = []
+global_items = list(globals().items())
+# print(global_items)
 
-if __name__ == "__main__":
-    # Initialize an empty list to store the values of the variables
-    variable_values = []
-
-    # Make a static list of items from globals() to avoid RuntimeError
-    global_items = list(globals().items())  # Copy items to a list
-
-    # Iterate over the copied list of global items
-    for name, value in global_items:
-        # Check if the name does not start with '_'
-        if not name.startswith('_'):
-            variable_values.append(value)
-
-    # Now variable_values list contains the values of all non-internal variables
-    print(len(variable_values))
+for name, value in global_items:
+    if not name.startswith('_'):
+        COURSE_MPC_QUESTIONS.append(value)
