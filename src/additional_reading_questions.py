@@ -767,14 +767,223 @@ week6_tf_question_3 = {
 
 
 
+########################week_7_SSRN-id481881#######
+week7_mpc_question_1 = {
+    'question': "What fundamental concept is discussed in relation to risk and return in financial markets?",
+    'options_list': [
+        'Higher expected returns are associated with lower risk.',
+        'Risk and return are unrelated in efficient markets.',
+        'Higher expected returns require taking higher risk.',
+        'All assets have the same risk-return profile.'
+    ],
+    'correct_answer': 'Higher expected returns require taking higher risk.',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_2 = {
+    'question': "Which models are highlighted for explaining the relationship between risk and expected returns?",
+    'options_list': [
+        'The CAPM and the Fama-French Three-Factor Model',
+        'The Efficient Market Hypothesis and Modern Portfolio Theory',
+        'Dividend Discount Model and Arbitrage Pricing Theory',
+        'Black-Scholes Model and Monte Carlo Simulations'
+    ],
+    'correct_answer': 'The CAPM and the Fama-French Three-Factor Model',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_3 = {
+    'question': "How is volatility commonly measured in the context of risk?",
+    'options_list': [
+        'Beta coefficient',
+        'Sharpe Ratio',
+        'Standard deviation of returns',
+        'Alpha coefficient'
+    ],
+    'correct_answer': 'Standard deviation of returns',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_4 = {
+    'question': "What does diversification primarily aim to reduce?",
+    'options_list': [
+        'Systematic risk',
+        'Unsystematic risk',
+        'Interest rate risk',
+        'Currency risk'
+    ],
+    'correct_answer': 'Unsystematic risk',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_5 = {
+    'question': "What does the beta coefficient in the CAPM represent?",
+    'options_list': [
+        'The expected return of a portfolio',
+        'The volatility of an asset relative to the overall market',
+        'The risk-free rate of return',
+        "The portfolio's alpha"
+    ],
+    'correct_answer': 'The volatility of an asset relative to the overall market',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_8 = {
+    'question': "Which model expands CAPM by adding company-specific risk factors?",
+    'options_list': [
+        'The Efficient Market Hypothesis',
+        'The Fama-French Three-Factor Model',
+        'The Arbitrage Pricing Theory',
+        'The Dividend Discount Model'
+    ],
+    'correct_answer': 'The Fama-French Three-Factor Model',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_9 = {
+    'question': "What does the beta coefficient in CAPM represent?",
+    'options_list': [
+        'The risk-free rate of return',
+        'The total market return',
+        "The measure of an asset's volatility in relation to the market",
+        'The expected return of the market minus the risk-free rate'
+    ],
+    'correct_answer': 'The measure of an asset\'s volatility in relation to the market',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_10 = {
+    'question': "What is the primary purpose of the SMB (Small Minus Big) factor in the Fama-French Three-Factor Model?",
+    'options_list': [
+        'To account for the size premium in small-cap stocks',
+        'To measure the risk-free rate of return',
+        'To calculate the market risk premium',
+        'To determine the value premium in high book-to-market stocks'
+    ],
+    'correct_answer': 'To account for the size premium in small-cap stocks',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_11 = {
+    'question': "How is alpha (α) interpreted in the context of CAPM and the Fama-French Three-Factor Model?",
+    'options_list': [
+        'As the expected market return',
+        'As the risk-free rate',
+        "As the portfolio's return in excess of what is predicted by the model",
+        'As the covariance between the asset and market returns'
+    ],
+    'correct_answer': 'As the portfolio\'s return in excess of what is predicted by the model',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
+
+week7_mpc_question_12 = {
+    'question': "Which of the following best describes the HML (High Minus Low) factor?",
+    'options_list': [
+        'It measures the premium for investing in stocks with high market capitalizations.',
+        'It represents the difference in returns between high and low dividend yield stocks.',
+        'It captures the value premium of high book-to-market stocks over low book-to-market stocks.',
+        'It quantifies the excess return of small-cap stocks over large-cap stocks.'
+    ],
+    'correct_answer': 'It captures the value premium of high book-to-market stocks over low book-to-market stocks.',
+    'chapter_information': 'week_7_SSRN-id481881'
+}
 
 
 
+#####################week 8#############
 
+week8_mpc_question_1 = {
+    'question': "What is factor investing?",
+    'options_list': [
+        'Investing in a portfolio consisting solely of government bonds',
+        'Selecting investments based on macroeconomic trends',
+        'Investing based on attributes that explain risk and return of securities',
+        'Focusing on short-term trading strategies to maximize returns'
+    ],
+    'correct_answer': 'Investing based on attributes that explain risk and return of securities',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
 
+week8_mpc_question_2 = {
+    'question': "Which of the following is NOT identified as an equity risk premia factor?",
+    'options_list': [
+        'Value',
+        'Low Volatility',
+        'High Yield',
+        'Market Capitalization'
+    ],
+    'correct_answer': 'Market Capitalization',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
 
+week8_mpc_question_3 = {
+    'question': "What is a primary challenge in factor investing according to the document?",
+    'options_list': [
+        'Identifying factors that influence stock prices',
+        'The cyclicality of factor returns and their periods of underperformance',
+        'Determining the correct timing for buying and selling assets',
+        'Calculating the exact risk premium for each factor'
+    ],
+    'correct_answer': 'The cyclicality of factor returns and their periods of underperformance',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
 
+week8_mpc_question_4 = {
+    'question': "How does diversification impact factor investing?",
+    'options_list': [
+        'Reduces the need to identify individual factors',
+        'Increases the risk associated with individual factors',
+        'Helps mitigate specific factor risks and enhances portfolio resilience',
+        'Has no significant impact on factor investing outcomes'
+    ],
+    'correct_answer': 'Helps mitigate specific factor risks and enhances portfolio resilience',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
 
+week8_mpc_question_5 = {
+    'question': "What role does quantitative analysis play in factor investing?",
+    'options_list': [
+        'Primarily used for marketing to potential investors',
+        'Serves as the basis for selecting and weighting investments according to identified factors',
+        'Used exclusively for risk management and not for portfolio construction',
+        'It is discouraged due to its complexity and reliance on historical data'
+    ],
+    'correct_answer': 'Serves as the basis for selecting and weighting investments according to identified factors',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
+
+week8_mpc_question_6 = {
+    'question': "According to the document, what is a significant benefit of factor investing?",
+    'options_list': [
+        'Guarantees higher returns than the market portfolio',
+        'Offers transparency and a systematic approach to investing',
+        'Eliminates the need for active management',
+        'Reduces investment costs to zero'
+    ],
+    'correct_answer': 'Offers transparency and a systematic approach to investing',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
+
+week8_tf_question_1 = {
+    'question': "Factor investing focuses solely on maximizing short-term returns.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
+
+week8_tf_question_2 = {
+    'question': "Value and momentum are considered fundamental factors in factor investing.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'True',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
+
+week8_tf_question_3 = {
+    'question': "Diversification in factor investing can eliminate all investment risk.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'chapter_information': 'week_8_Foundations_of_Factor_Investing'
+}
 
 
 
