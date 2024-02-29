@@ -86,14 +86,18 @@ sa2_question_4 = {
 
 sa2_question_5 = {
     'question': "Which of the following results from the residual analysis of a linear regression model is not a clear signal for the need to explore non-linear models?",
-    'options_list': ['The residuals vs. fitted values plot indicates that the model has heteroscedasticity', 'the QQ-plot suggest that there is non-linearity', 'The residuals suffer from non-constant variance', 'The residuals appear to be normally distributed.'],
+    'options_list': ['The residuals vs. fitted values plot indicates that the model has heteroscedasticity',
+                     'the QQ-plot suggest that there is non-linearity',
+                     'The residuals suffer from non-constant variance',
+                     'The residuals appear to be normally distributed.'],
     'correct_answer': 'The residuals appear to be normally distributed.',
     'chapter_information': 'Module 3, slide 4'
 }
 
 sa2_question_6 = {
     'question': "For a non-linear model salary = b0 + b1*log (years of experience). If b1 = 5122, which of the following statements is correct?",
-    'options_list': ['When years of experience increases by 1, salary increases (on average) by $5122.', 'When years of experience decreases by 1, salary increases (on average) by $5122.', 'When years of experience increases by 1%, salary increases (on average) by $51.22.', 'When years of experience decreases by log (1), salary increases (on average) by $51.22.'],
+    'options_list': ['When years of experience increases by 1, salary increases (on average) by $5122.', 'When years of experience decreases by 1, salary increases (on average) by $5122.',\
+        'When years of experience increases by 1%, salary increases (on average) by $51.22.', 'When years of experience decreases by log (1), salary increases (on average) by $51.22.'],
     'correct_answer': 'When years of experience increases by 1%, salary increases (on average) by $51.22.',
     'chapter_information': 'Module 3, slide 8'
 }
@@ -202,6 +206,141 @@ sa4_question_10 = {
     'options_list': ['Randomized controlled experiment', 'Natural experiment', 'Add control variables', 'All the above'],
     'correct_answer': 'All the above',
     'chapter_information': 'Week 5, slide 6'
+}
+
+
+
+### hw1
+hw1_question_1 = {
+    'question': "Which of the following indicate that the result from a simple linear regression model could be potentially misleading?",
+    'options_list': [
+        'The dependent and the independent variable show a linear pattern.',
+        'The error terms exhibit homoscedasticity',
+        'The error terms follow a normal distribution',
+        'The nth error term could be predicted with e_n = 0.91*e_{n-1}'
+    ],
+    'correct_answer': 'The nth error term could be predicted with e_n = 0.91*e_{n-1}',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_2 = {
+    'question': "Consider a multiple linear regression model: Y = 0.55 + 0.93*x1 + 1.88*x2. Which of the following interpretation of the coefficients is correct?",
+    'options_list': [
+        'A unit increase in x1 is associated with an 0.93 increase in Y.',
+        'Y is predicted to be equal to 0.55 when both x1 and x2 take the value of 1',
+        'A unit increase in x2 is associated with a 1.88 increase in Y, keeping all else constant.',
+        'A 0.93 increase in x1 is associated with a 1.88 increase in x2'
+    ],
+    'correct_answer': 'A unit increase in x2 is associated with a 1.88 increase in Y, keeping all else constant.',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_3 = {
+    'question': "When testing our predictive variables for Multicollinearity we create a model in R of lm(pred1 ~ pred2 + pred3, data = dataset) and we get an R Squared of 0.85. What is the VIF for pred1?",
+    'options_list': [
+        '0.85',
+        '0.15',
+        '6.667',
+        '0.5405'
+    ],
+    'correct_answer': '6.667',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_4 = {
+    'question': "Consider a linear regression model estimating the fuel efficiency of a car in terms miles per gallon of gas (mpg) based on its origin (region A, B or C) \
+        and number of cylinders with the following formula: mpg = b0 + b1*RegionB + b2*RegionC + b3*Cylinders. The estimated values of the regression coefficients are provided below: b0 = 40.7, b1 = -0.91, b2 = 2.66, b3 = -3.15. Based on this model, \
+            if X is the mpg of a car with 4 cylinders originated from region B, and Z is the mpg of a car with 3 cylinders originated from region A, what is the value of X - Z:",
+    'options_list': [
+        '-0.91',
+        '-3.15',
+        '-4.06',
+        '-6.72'
+    ],
+    'correct_answer': '-4.06',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_5 = {
+    'question': "True or False, when you create a linear regression model with factors (i.e. male, female), R converts those factors into dummy variables?",
+    'options_list': [
+        'True',
+        'False'
+    ],
+    'correct_answer': 'True',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_6 = {
+    'question': "From the following regression model: Gold_Price_Per_oz = B0 + B1*M2+B2*VIX+B3*War, where M2 is a continuous variable of the M2 money supply, VIX is a continuous variable of the VIX index, and War is a categorical variable (0 is Time period at peace, 1 is Time period at war). Which of the following would be a part of the base case conditions?",
+    'options_list': [
+        'Time period at war',
+        'Time period at peace',
+        'A high VIX index',
+        'Period of inflation'
+    ],
+    'correct_answer': 'Time period at peace',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_7 = {
+    'question': "Given the following model: price = b0 + b1*lotsize + b2*lotsize^2, how can one interpret the coefficients? Select the best answer.",
+    'options_list': [
+        'Price increases by b0 + b1 + b2^2 when lotsize is increased by 1 unit.',
+        'A quadratic model does not allow for an isolated interpretation of coefficients.',
+        'Price increases by b1 when lotsize is increased by 1 unit.',
+        'Price increases by b2 when lotsize is increased by 1 unit.'
+    ],
+    'correct_answer': 'A quadratic model does not allow for an isolated interpretation of coefficients.',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_8 = {
+    'question': "Select the model approximation that best matches the following statement: 'As X increases by 1%, Y increases by (b1/100) units, holding all other factors constant.'",
+    'options_list': [
+        'Y = b0 + b1*X',
+        'Y = b0 + b1*log(X)',
+        'log(Y) = b0 + b1*X',
+        'log(Y) = b0 + b1*log(X)'
+    ],
+    'correct_answer': 'log(Y) = b0 + b1*X',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_9 = {
+    'question': "Assume that you have concluded to use a log transformation on your data to model a relationship. However, on investigating the dataset, you found negative and zero values. How will you proceed?",
+    'options_list': [
+        'Throw out the data points which are negative or zero',
+        'Use Log(x+1), where x is the variable you want to transform',
+        'Use log(x + c +1), where c is the absolute value of the most negative number',
+        'Use log(10 * x)'
+    ],
+    'correct_answer': 'Use log(x + c +1), where c is the absolute value of the most negative number',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_10 = {
+    'question': "If we decrease the cutoff value and then consider that the number of true positives, true negatives, false positives, and false negatives changes, which of the following is true?",
+    'options_list': [
+        'False positive rate decreases',
+        'Sensitivity increases',
+        'Specificity increases',
+        'None of the above'
+    ],
+    'correct_answer': 'Sensitivity increases',
+    'chapter_information': 'Homework 1'
+}
+
+hw1_question_12 = {
+    'question': "Which of the following case is referred to Type II error?",
+    'options_list': [
+        'Null is false and we reject it.',
+        'Null is True, but we fail to reject it.',
+        'Null is True but we mistakenly reject it.',
+        'Null is false but we fail to reject it.'
+    ],
+    'correct_answer': 'Null is false but we fail to reject it.',
+    'chapter_information': 'Homework 1'
 }
 
 
