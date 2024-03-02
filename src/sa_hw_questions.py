@@ -342,6 +342,121 @@ hw1_question_12 = {
     'correct_answer': 'Null is false but we fail to reject it.',
     'chapter_information': 'Homework 1'
 }
+######## hw2
+hw2_part1_q1 = {
+    'question': "Given a complete deck of cards, the probability of drawing the Ace of Diamonds is 1/52. Based on this probability, what are the odds for this event?",
+    'options_list': ['1/51', '1/52', '51/1', '52/1'],
+    'correct_answer': '1/51',
+    'chapter_information': 'Odds(for) = p/(1−p) = (1/52)/(1−1/52) = 1/51'
+}
+
+hw2_part1_q2 = {
+    'question': "Which of the following is the reason why linear regression is not suitable for modelling binary responses?",
+    'options_list': [
+        'With a linear regression model, all predicted outcomes will fall between zero and one.',
+        'With a linear regression model, some of the predicted outcomes may be less than zero or greater than one.',
+        'Linear regression is not capable of modelling a response based on more than one variable at a time.',
+        'Linear regression is not capable of modelling categorical variables.'
+    ],
+    'correct_answer': 'With a linear regression model, some of the predicted outcomes may be less than zero or greater than one.',
+    'chapter_information': 'Lecture slide #8'
+}
+
+hw2_part1_q3 = {
+    'question': "If we decrease the cutoff value of a logistic regression model then considering that number of True positives, True negatives, False positive and False negatives changes, which of the following is true? (Assume that there are no changes in the dataset used)",
+    'options_list': [
+        'False positive rate decreases',
+        'Sensitivity increases',
+        'Specificity increases',
+        'None of the above'
+    ],
+    'correct_answer': 'Sensitivity increases',
+    'chapter_information': "Module 4: As we decrease the cutoff value, the number of True positives \
+    increase, the number of True negatives decrease, the number of False positives increase and \
+    the number of False negatives decrease. Since the (number of True positives + number of \
+    False negatives) = Actual positives and (number of True negatives + False positives) = Actual \
+    negatives remain the same as we're using the same dataset, Sensitivity increases, Specificity \
+        decreases and False positive rate increases. "
+}
+
+hw2_part1_q4 = {
+    'question': "After running a logistic linear regression model in R where logit(p) = b0 + b1*student, you find that your coefficient estimate for your ‘non-students’ (intercept) is equal to –4.732 and your coefficient estimate for ‘student’ is equal to 1.748. Calculate the odds for non-students and students.",
+    'options_list': [
+        'e(-4.732), e(-4.732+1.748)',
+        '-4.732, -4.732+1.748',
+        '-4.732, 1.748',
+        'log(-4.732), log(1.748)'
+    ],
+    'correct_answer': 'e(-4.732), e(-4.732+1.748)',
+    'chapter_information': 'Module 4 (Page 17 Slide 2)'
+}
+
+hw2_part1_q5 = {
+    'question': "Which of the following is not needed to establish causation?",
+    'options_list': [
+        'Hypothesized cause must precede its anticipated effect.',
+        'Other possible explanations that can cause the effect must be ruled out.',
+        'Change in cause must lead to a change in effect.',
+        'The effect must always have a reverse impact on the cause.'
+    ],
+    'correct_answer': 'The effect must always have a reverse impact on the cause.',
+    'chapter_information': '(Module 5, slide 3)'
+}
+
+hw2_part1_q7 = {
+    'question': "Choose if the following statement is true or false: Correlation is sensitive to the scale of the data; however, covariance is not sensitive to the scale of the data.",
+    'options_list': ['True', 'False'],
+    'correct_answer': 'False',
+    'chapter_information': 'Correlation is NOT sensitive to the scale and covariance is scale sensitive à If we scale each random variable (say X and Y) by the same factor (say 2), \
+        the relative position of data won’t change, but the covariance between X and Y becomes 4 times which can be confirmed by the formula. However, in case of correlation – \ it has \
+            normalizing standard deviation terms in denominator which makes it immune to the scale of data.'
+}
+
+hw2_part1_q8 = {
+    'question': "Which of the following is NOT an example of selection bias?",
+    'options_list': [
+        'A voter survey to predict vote distribution for the presidential election in the US which is based on a sample of low-income household voters in the US.',
+        'Taking surveys of people to participate in the study over email.',
+        'Survey filled by audiences who have come to see radio/tv shows that are on controversial topics (abortion, affirmative action, gun control, etc.).',
+        'Dividing states into subgroups based on important characteristics and randomly selecting houses to be surveyed.'
+    ],
+    'correct_answer': 'Dividing states into subgroups based on important characteristics and randomly selecting houses to be surveyed.',
+    'chapter_information': '. D. is the only part where there is no selection bias for a state-wide survey. A is an example of Under-coverage Bias; B is an example of Nonresponse Bias and C is an example of Voluntary Response Bias.'
+}
+
+hw2_part1_q10 = {
+    'question': "Suppose you invested in a fund for 1 year. The fund return was 10% and risk-free rate was 2%. The fund’s standard deviation over this period was 5% and beta was 1.3. What was the fund’s Sharpe ratio?",
+    'options_list': ['0.06', '1.6', '4', '6.15'],
+    'correct_answer': '1.6',
+    'chapter_information': 'Sharpe Ratio = (0.10 – 0.02)/0.05 = 1.6'
+}
+
+hw2_part1_q11 = {
+    'question': "Given beta (β) of the following stocks, which stock would have the most increase if the market has a 10% increase?",
+    'options_list': [
+        'Stock A beta = 1',
+        'Stock B beta = 1.8',
+        'Stock C beta = 0.1',
+        'Stock D beta = -1.5'
+    ],
+    'correct_answer': 'Stock B beta = 1.8',
+    'chapter_information': "Beta measures sensitivity and how the stock co-moves with changes in the market. If beta = 1, \
+        then stock price moves up 1% in each 1% increase in market. If beta = 0, then stock price stays unchanged with each 1% increase in market. If beta > 1, then stock price moves greater than the 1% increase in market. \
+            In this question, Stock B has the highest positive beta. A 10% increase in market would result in 18% (10% * 1.8) increase to the stock price"
+}
+
+hw2_part1_q12 = {
+    'question': "Consider 2 stocks A and B. Over a period of time, the Jensen’s alpha for stock A was 0.5 and the Jensen’s alpha for stock B was -0.7. Given the beta for stock A was 1.2 and for stock B was 1.5, and considering that the return on the index used in calculating Jensen’s alpha and beta for these stocks over this time period was the same as the risk-free rate, which stock had better return over this period of time?",
+    'options_list': [
+        'Stock A',
+        'Stock B',
+        'Can’t say as more information is required to make this decision'
+    ],
+    'correct_answer': 'Stock A',
+    'chapter_information': 'Since the return of the market index is same as the risk-free rate, the multiplier of the beta term (Rm-Rf) is zero and hence beta has no effect over the returns of these stocks. Since the error terms are insignificant, the stock with higher alpha has higher excess returns and hence has higher returns.'
+}
+
+
 
 
 COURSE_MPC_QUESTIONS = []

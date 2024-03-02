@@ -211,135 +211,135 @@ kc6_question_6 = {
 }
 
 ###########knowledge check 7############################
-kc7_question_1 = {
-    'question': "Which of the following measures risk adjusted performance?",
-    'options_list': ['Sharpe Ratio', 'Treynor Ratio', 'Jensen’s Alpha', 'All of the above'],
-    'correct_answer': 'All of the above',
-    'chapter_information': 'Lesson 1 / Slide 1'
-}
+# kc7_question_1 = {
+#     'question': "Which of the following measures risk adjusted performance?",
+#     'options_list': ['Sharpe Ratio', 'Treynor Ratio', 'Jensen’s Alpha', 'All of the above'],
+#     'correct_answer': 'All of the above',
+#     'chapter_information': 'Lesson 1 / Slide 1'
+# }
 
-kc7_question_2 = {
-    'question': "What does Jensen’s Alpha measure?",
-    'options_list': [
-        "Abnormal return by comparing to a benchmark",
-        "Investment reward per unit risk",
-        "Abnormal return that the portfolio earns after adjusting beta"
-    ],
-    'correct_answer': "Abnormal return by comparing to a benchmark",
-    'chapter_information': 'Lesson 1 / Slide 8'
-}
+# kc7_question_2 = {
+#     'question': "What does Jensen’s Alpha measure?",
+#     'options_list': [
+#         "Abnormal return by comparing to a benchmark",
+#         "Investment reward per unit risk",
+#         "Abnormal return that the portfolio earns after adjusting beta"
+#     ],
+#     'correct_answer': "Abnormal return by comparing to a benchmark",
+#     'chapter_information': 'Lesson 1 / Slide 8'
+# }
 
-kc7_question_3 = {
-    'question': "True or False: Transaction costs always lower our returns.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'True',
-    'chapter_information': 'Lesson 2 / Slide 8'
-}
+# kc7_question_3 = {
+#     'question': "True or False: Transaction costs always lower our returns.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'True',
+#     'chapter_information': 'Lesson 2 / Slide 8'
+# }
 
-kc7_question_4 = {
-    'question': "What is the bid-ask spread of stock symbol XYZ given the best ask price is $36 and best bid price is $34?",
-    'options_list': ['$1', '$2', '$35', '$70'],
-    'correct_answer': '$2',
-    'chapter_information': 'Lesson 2 / Slides 4-5'
-}
+# kc7_question_4 = {
+#     'question': "What is the bid-ask spread of stock symbol XYZ given the best ask price is $36 and best bid price is $34?",
+#     'options_list': ['$1', '$2', '$35', '$70'],
+#     'correct_answer': '$2',
+#     'chapter_information': 'Lesson 2 / Slides 4-5'
+# }
 
-kc7_question_5 = {
-    'question': "Which of the following transaction cost describes this scenario? An investor pays a fixed $5.00 fee per trade.",
-    'options_list': ['Commissions', 'Bid-Ask Spread Cost', 'Delay Cost'],
-    'correct_answer': 'Commissions',
-    'chapter_information': 'Lesson 2 / Slide 4'
-}
+# kc7_question_5 = {
+#     'question': "Which of the following transaction cost describes this scenario? An investor pays a fixed $5.00 fee per trade.",
+#     'options_list': ['Commissions', 'Bid-Ask Spread Cost', 'Delay Cost'],
+#     'correct_answer': 'Commissions',
+#     'chapter_information': 'Lesson 2 / Slide 4'
+# }
 
-kc7_question_6 = {
-    'question': "Which of the following is not a type of market efficiency?",
-    'options_list': ['Weak Form', 'Semi-Weak Form', 'Semi-Strong Form', 'Strong Form'],
-    'correct_answer': 'Semi-Weak Form',
-    'chapter_information': 'Lesson 3 / Slide 1'
-}
+# kc7_question_6 = {
+#     'question': "Which of the following is not a type of market efficiency?",
+#     'options_list': ['Weak Form', 'Semi-Weak Form', 'Semi-Strong Form', 'Strong Form'],
+#     'correct_answer': 'Semi-Weak Form',
+#     'chapter_information': 'Lesson 3 / Slide 1'
+# }
 
-kc7_question_7 = {
-    'question': "If the current stock price reflects all publicly available information and not private information, what type of market efficiency is it experiencing?",
-    'options_list': ['Weak Form', 'Semi-Weak Form', 'Semi-Strong Form', 'Strong Form'],
-    'correct_answer': 'Semi-Strong Form',
-    'chapter_information': 'Lesson 3 / Slide 6'
-}
+# kc7_question_7 = {
+#     'question': "If the current stock price reflects all publicly available information and not private information, what type of market efficiency is it experiencing?",
+#     'options_list': ['Weak Form', 'Semi-Weak Form', 'Semi-Strong Form', 'Strong Form'],
+#     'correct_answer': 'Semi-Strong Form',
+#     'chapter_information': 'Lesson 3 / Slide 6'
+# }
 
-kc7_question_8 = {
-    'question': "The tendency of individuals to seek pride and avoid regret in their decisions is known as ______?",
-    'options_list': ['Overconfidence', 'Loss Aversion', 'Recency Effect', 'Anchoring'],
-    'correct_answer': 'Anchoring',
-    'chapter_information': 'Lesson 4 / Slide 4'
-}
+# kc7_question_8 = {
+#     'question': "The tendency of individuals to seek pride and avoid regret in their decisions is known as ______?",
+#     'options_list': ['Overconfidence', 'Loss Aversion', 'Recency Effect', 'Anchoring'],
+#     'correct_answer': 'Anchoring',
+#     'chapter_information': 'Lesson 4 / Slide 4'
+# }
 
-kc7_question_9 = {
-    'question': "XYZ’s stock price was trading at $50 last week. XYZ is trading at $40 today. You decided to purchase 1 share of XYZ at $40 because you think it will go back up to $50. You made the purchase even though you have no other evidence to suggest the valuation of XYZ should be at $50. What is this an example of?",
-    'options_list': ['Overconfidence', 'Loss Aversion', 'Recency Effect', 'Anchoring'],
-    'correct_answer': 'Anchoring',
-    'chapter_information': 'Lesson 4 / Slide 4'
-}
-###########knowledge check 8############################
-kc8_question_1 = {
-    'question': "Which of the following statements is NOT true:",
-    'options_list': [
-        "A high B/M ratio stock is often called a value stock",
-        "A low B/M ratio stock is often called a growth stock",
-        "A low B/M ratio means the stock is inexpensive",
-        "A high B/M ratio means the stock is inexpensive"
-    ],
-    'correct_answer': "A low B/M ratio means the stock is inexpensive",
-    'chapter_information': "Explanation: C: A low B/M ratio means the stock is inexpensive is False."
-}
+# kc7_question_9 = {
+#     'question': "XYZ’s stock price was trading at $50 last week. XYZ is trading at $40 today. You decided to purchase 1 share of XYZ at $40 because you think it will go back up to $50. You made the purchase even though you have no other evidence to suggest the valuation of XYZ should be at $50. What is this an example of?",
+#     'options_list': ['Overconfidence', 'Loss Aversion', 'Recency Effect', 'Anchoring'],
+#     'correct_answer': 'Anchoring',
+#     'chapter_information': 'Lesson 4 / Slide 4'
+# }
+# ###########knowledge check 8############################
+# kc8_question_1 = {
+#     'question': "Which of the following statements is NOT true:",
+#     'options_list': [
+#         "A high B/M ratio stock is often called a value stock",
+#         "A low B/M ratio stock is often called a growth stock",
+#         "A low B/M ratio means the stock is inexpensive",
+#         "A high B/M ratio means the stock is inexpensive"
+#     ],
+#     'correct_answer': "A low B/M ratio means the stock is inexpensive",
+#     'chapter_information': "Explanation: C: A low B/M ratio means the stock is inexpensive is False."
+# }
 
-kc8_question_2 = {
-    'question': "Which of the following statements is/are a benefit of factor analysis?",
-    'options_list': [
-        "Investors can analyze what type of factors drove a stock’s performance over a period",
-        "Investors can attribute performance of funds and fund managers to specific factor exposures",
-        "Investors can construct more balanced portfolios",
-        "Investors can better understand their portfolio’s exposure to factors",
-        "All of the Above"
-    ],
-    'correct_answer': "All of the Above",
-    'chapter_information': "Solution: E: All of the Above."
-}
+# kc8_question_2 = {
+#     'question': "Which of the following statements is/are a benefit of factor analysis?",
+#     'options_list': [
+#         "Investors can analyze what type of factors drove a stock’s performance over a period",
+#         "Investors can attribute performance of funds and fund managers to specific factor exposures",
+#         "Investors can construct more balanced portfolios",
+#         "Investors can better understand their portfolio’s exposure to factors",
+#         "All of the Above"
+#     ],
+#     'correct_answer': "All of the Above",
+#     'chapter_information': "Solution: E: All of the Above."
+# }
 
-kc8_question_3 = {
-    'question': "Which of the following coefficients indicates the fund is tilted towards growth stocks?",
-    'options_list': [
-        "A positive coefficient on BAB",
-        "A negative coefficient on BAB",
-        "A positive coefficient on HML",
-        "A negative coefficient on HML"
-    ],
-    'correct_answer': "A negative coefficient on HML",
-    'chapter_information': "Solution: D A negative coefficient on HML."
-}
+# kc8_question_3 = {
+#     'question': "Which of the following coefficients indicates the fund is tilted towards growth stocks?",
+#     'options_list': [
+#         "A positive coefficient on BAB",
+#         "A negative coefficient on BAB",
+#         "A positive coefficient on HML",
+#         "A negative coefficient on HML"
+#     ],
+#     'correct_answer': "A negative coefficient on HML",
+#     'chapter_information': "Solution: D A negative coefficient on HML."
+# }
 
-kc8_question_4 = {
-    'question': "True or False? Each of the factors discussed in the lecture have experienced prolonged periods of underperformance.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'True',
-    'chapter_information': "Solution: A: True."
-}
+# kc8_question_4 = {
+#     'question': "True or False? Each of the factors discussed in the lecture have experienced prolonged periods of underperformance.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'True',
+#     'chapter_information': "Solution: A: True."
+# }
 
-kc8_question_5 = {
-    'question': "What is Sharpe Ratio used for?",
-    'options_list': [
-        "To calculate stocks and mutual fund return rates",
-        "To determine stocks and mutual fund risk",
-        "To identify stocks and mutual funds risk adjusted return",
-        "To determine what drives the stocks and mutual funds returns"
-    ],
-    'correct_answer': "To identify stocks and mutual funds risk adjusted return",
-    'chapter_information': "Solution: C: To identify stocks and mutual funds risk adjusted performance."
-}
+# kc8_question_5 = {
+#     'question': "What is Sharpe Ratio used for?",
+#     'options_list': [
+#         "To calculate stocks and mutual fund return rates",
+#         "To determine stocks and mutual fund risk",
+#         "To identify stocks and mutual funds risk adjusted return",
+#         "To determine what drives the stocks and mutual funds returns"
+#     ],
+#     'correct_answer': "To identify stocks and mutual funds risk adjusted return",
+#     'chapter_information': "Solution: C: To identify stocks and mutual funds risk adjusted performance."
+# }
 
-kc8_question_6 = {
-    'question': "Which of the following is NOT a metric discussed in lecture of stock or portfolio performance?",
-    'options_list': ['Sharpe Ratio', 'Jensen’s Alpha', 'Treynor Ratio', 'Case-Shiller Index'],
-    'correct_answer': 'Case-Shiller Index',
-    'chapter_information': "Solution: D: Case-Shiller Index; This is not a topic covered in the lectures."
-}
+# kc8_question_6 = {
+#     'question': "Which of the following is NOT a metric discussed in lecture of stock or portfolio performance?",
+#     'options_list': ['Sharpe Ratio', 'Jensen’s Alpha', 'Treynor Ratio', 'Case-Shiller Index'],
+#     'correct_answer': 'Case-Shiller Index',
+#     'chapter_information': "Solution: D: Case-Shiller Index; This is not a topic covered in the lectures."
+# }
 
 
 KC_MPC_QUESTIONS = []
