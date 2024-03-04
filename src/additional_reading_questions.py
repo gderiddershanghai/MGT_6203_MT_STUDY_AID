@@ -334,88 +334,160 @@ chapter4_question_3 = {
 }
 
 chapter4_question_4 = {
-    'question': "Linear Discriminant Analysis (LDA) is primarily used for:",
+    'question': "Why can't linear regression be used for predicting outcomes of a qualitative response variable?",
     'options_list': [
-        'Estimating the relationship between predictors and a quantitative response',
-        'Predicting a binary outcome based on a set of predictors',
-        'Classifying observations into more than two categories',
-        'Reducing the dimensionality of the feature space'
+        'Linear regression can only handle numeric predictor variables.',
+        'Linear regression models are computationally too complex for qualitative responses.',
+        'Linear regression predictions can be negative or greater than 1, which is not interpretable for categorical outcomes.',
+        'Linear regression models do not allow for the inclusion of dummy variables.'
     ],
-    'correct_answer': 'Predicting a binary outcome based on a set of predictors',
+    'correct_answer': 'Linear regression predictions can be negative or greater than 1, which is not interpretable for categorical outcomes.',
     'chapter_information': 'ISLR Chapter 4'
-}
+    }
 
 chapter4_question_5 = {
-    'question': "Which assumption does LDA make about the predictors?",
+    'question': "What does the logistic function in logistic regression ensure about the predicted probabilities?",
     'options_list': [
-        'The predictors follow a multivariate normal distribution with a common covariance matrix.',
-        'The predictors are independent of each other.',
-        'The predictors are normally distributed with different variances for each class.',
-        'The relationship between the predictors and the response is linear.'
+        'Predicted probabilities are always multiples of 0.5.',
+        'Predicted probabilities are linearly related to the predictors.',
+        'Predicted probabilities are constrained between 0 and 1.',
+        'Predicted probabilities are independent of the predictors.'
     ],
-    'correct_answer': 'The predictors follow a multivariate normal distribution with a common covariance matrix.',
+    'correct_answer': 'Predicted probabilities are constrained between 0 and 1.',
     'chapter_information': 'ISLR Chapter 4'
 }
 
 chapter4_question_6 = {
-    'question': "What is the key difference between LDA and QDA?",
+    'question': "How does the inclusion of multiple predictors in a logistic regression model affect its interpretation?",
     'options_list': [
-        'LDA assumes different covariance matrices for each class, while QDA assumes a common covariance matrix.',
-        'LDA can only be used for binary classification, whereas QDA can be used for multi-class classification.',
-        'LDA assumes a common covariance matrix for all classes, while QDA allows for class-specific covariance matrices.',
-        'QDA is computationally less intensive than LDA.'
+        'It allows for interaction effects between predictors to be modeled directly.',
+        'It changes the logistic function to a linear function.',
+        'It makes the model interpretation independent of the scale of the predictors.',
+        'Each predictor’s effect is interpreted while holding other predictors at a fixed value.'
     ],
-    'correct_answer': 'LDA assumes a common covariance matrix for all classes, while QDA allows for class-specific covariance matrices.',
+    'correct_answer': 'Each predictor’s effect is interpreted while holding other predictors at a fixed value.',
     'chapter_information': 'ISLR Chapter 4'
-}
+    }
 
 chapter4_question_7 = {
-    'question': "Which of the following statements about the naive Bayes classifier is true?",
+    'question': "What is the effect of adding more predictors to a logistic regression model?",
     'options_list': [
-        'It assumes that predictors within each class are dependent on each other.',
-        'It can only be applied when the predictors are normally distributed.',
-        'It assumes that all predictors within each class are independent.',
-        'It requires a larger amount of data to estimate the parameters accurately compared to LDA and QDA.'
+        'It simplifies the model by reducing the number of parameters.',
+        'It decreases the chances of overfitting the model.',
+        "It increases the model's complexity and can lead to overfitting.",
+        'It has no effect on the model’s performance or interpretability.'
     ],
-    'correct_answer': 'It assumes that all predictors within each class are independent.',
+    'correct_answer': "It increases the model's complexity and can lead to overfitting.",
     'chapter_information': 'ISLR Chapter 4'
 }
 
 chapter4_question_8 = {
-    'question': "Why might one prefer QDA over LDA?",
+    'question': "What role does the sigmoid (logistic) function play in logistic regression?",
     'options_list': [
-        'When the assumption of a common covariance matrix across all classes is strongly violated.',
-        'When the number of predictors p is much larger than the number of observations n.',
-        'When computational efficiency is the primary concern.',
-        'When the classes are linearly separable.'
+        'It ensures the independence of the predictors.',
+        'It linearizes the relationship between predictors and the log odds.',
+        'It transforms the log odds of the outcomes into probabilities.',
+        'It calculates the coefficients of the predictors directly.'
     ],
-    'correct_answer': 'When the assumption of a common covariance matrix across all classes is strongly violated.',
+    'correct_answer': 'It transforms the log odds of the outcomes into probabilities.',
     'chapter_information': 'ISLR Chapter 4'
-}
+    }
 
 chapter4_question_9 = {
-    'question': "The naive Bayes classifier is especially useful in:",
+    'question': "Why is logistic regression considered a linear model?",
     'options_list': [
-        'Situations where predictors are highly correlated.',
-        'Settings where n is large relative to p.',
-        'Scenarios where the assumption of independent predictors is reasonable.',
-        'When the data does not have a clear classification boundary.'
+        'Because it uses a linear combination of predictors to model the response directly.',
+        'Because the decision boundary it creates in the feature space is always a straight line.',
+        'Because it models the log odds of the response as a linear function of the predictors.',
+        'Because the probabilities it predicts are linear functions of the predictors.'
     ],
-    'correct_answer': 'Scenarios where the assumption of independent predictors is reasonable.',
+    'correct_answer': 'Because it models the log odds of the response as a linear function of the predictors.',
     'chapter_information': 'ISLR Chapter 4'
-}
+    }
 
-chapter4_question_10 = {
-    'question': "In the context of classification, a higher value of K in K-nearest neighbors (KNN) generally results in:",
-    'options_list': [
-        'Higher flexibility and lower bias.',
-        'Higher variance and lower bias.',
-        'Lower flexibility and higher bias.',
-        'Lower variance and higher flexibility.'
-    ],
-    'correct_answer': 'Lower flexibility and higher bias.',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_question_4 = {
+#     'question': "Linear Discriminant Analysis (LDA) is primarily used for:",
+#     'options_list': [
+#         'Estimating the relationship between predictors and a quantitative response',
+#         'Predicting a binary outcome based on a set of predictors',
+#         'Classifying observations into more than two categories',
+#         'Reducing the dimensionality of the feature space'
+#     ],
+#     'correct_answer': 'Predicting a binary outcome based on a set of predictors',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
+
+# chapter4_question_5 = {
+#     'question': "Which assumption does LDA make about the predictors?",
+#     'options_list': [
+#         'The predictors follow a multivariate normal distribution with a common covariance matrix.',
+#         'The predictors are independent of each other.',
+#         'The predictors are normally distributed with different variances for each class.',
+#         'The relationship between the predictors and the response is linear.'
+#     ],
+#     'correct_answer': 'The predictors follow a multivariate normal distribution with a common covariance matrix.',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
+
+# chapter4_question_6 = {
+#     'question': "What is the key difference between LDA and QDA?",
+#     'options_list': [
+#         'LDA assumes different covariance matrices for each class, while QDA assumes a common covariance matrix.',
+#         'LDA can only be used for binary classification, whereas QDA can be used for multi-class classification.',
+#         'LDA assumes a common covariance matrix for all classes, while QDA allows for class-specific covariance matrices.',
+#         'QDA is computationally less intensive than LDA.'
+#     ],
+#     'correct_answer': 'LDA assumes a common covariance matrix for all classes, while QDA allows for class-specific covariance matrices.',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
+
+# chapter4_question_7 = {
+#     'question': "Which of the following statements about the naive Bayes classifier is true?",
+#     'options_list': [
+#         'It assumes that predictors within each class are dependent on each other.',
+#         'It can only be applied when the predictors are normally distributed.',
+#         'It assumes that all predictors within each class are independent.',
+#         'It requires a larger amount of data to estimate the parameters accurately compared to LDA and QDA.'
+#     ],
+#     'correct_answer': 'It assumes that all predictors within each class are independent.',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
+
+# chapter4_question_8 = {
+#     'question': "Why might one prefer QDA over LDA?",
+#     'options_list': [
+#         'When the assumption of a common covariance matrix across all classes is strongly violated.',
+#         'When the number of predictors p is much larger than the number of observations n.',
+#         'When computational efficiency is the primary concern.',
+#         'When the classes are linearly separable.'
+#     ],
+#     'correct_answer': 'When the assumption of a common covariance matrix across all classes is strongly violated.',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
+
+# chapter4_question_9 = {
+#     'question': "The naive Bayes classifier is especially useful in:",
+#     'options_list': [
+#         'Situations where predictors are highly correlated.',
+#         'Settings where n is large relative to p.',
+#         'Scenarios where the assumption of independent predictors is reasonable.',
+#         'When the data does not have a clear classification boundary.'
+#     ],
+#     'correct_answer': 'Scenarios where the assumption of independent predictors is reasonable.',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
+
+# chapter4_question_10 = {
+#     'question': "In the context of classification, a higher value of K in K-nearest neighbors (KNN) generally results in:",
+#     'options_list': [
+#         'Higher flexibility and lower bias.',
+#         'Higher variance and lower bias.',
+#         'Lower flexibility and higher bias.',
+#         'Lower variance and higher flexibility.'
+#     ],
+#     'correct_answer': 'Lower flexibility and higher bias.',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
 chapter4_tf_question_1 = {
     'question': "Logistic regression directly models the probability Pr(Y=k|X=x) using the logistic function for binary response classes.",
