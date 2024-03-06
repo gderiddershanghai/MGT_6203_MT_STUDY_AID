@@ -3,7 +3,7 @@ from src.review_page1 import sa_questions
 from src.transcript_page2 import generate_transcript_questions
 from src.review_page1 import sa_questions
 from src.reading_page3 import generate_reading_questions
-
+from src.islr_long_form_questions_page5 import generate_open_questions
 
 def intro():
     import streamlit as st
@@ -45,7 +45,8 @@ def transcript_questions():
 def open_ended_questions():
     import streamlit as st
     st.markdown(f"# {list(page_names_to_funcs.keys())[4]}")
-    st.write('Open ended Questions - NOT DONE YET')
+    st.write('Open ended Questions')
+    generate_open_questions()
     # st.button("Re-run", on_click=st.experimental_rerun)
 
 def chart_questions():
@@ -63,7 +64,7 @@ page_names_to_funcs = {
     "SA & KC": review_questions,
     "Course Readings": reading_questions,
     "Lecture Videos": transcript_questions,
-    "Open Ended": open_ended_questions,
+    "Open Ended": generate_open_questions,
     "Charts & Code": chart_questions
 }
 

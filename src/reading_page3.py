@@ -42,14 +42,12 @@ def generate_reading_questions():
 
         question = question_generator(label, options, question_key)
 
-        # Use a unique key for each submit button to handle them individually
         if st.button('Submit', key=f"submit_{i}"):
             if question == correct_answer:
                 st.success('Great work!')
             else:
                 st.error(f"Ai, the correct answer was {correct_answer}")
 
-            # Optionally, provide a way to review material related to the question
             if 'chapter_information' in q:
                 st.write(f"You can review {q['chapter_information']}")
 

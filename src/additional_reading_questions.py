@@ -496,47 +496,47 @@ chapter4_tf_question_1 = {
     'chapter_information': 'ISLR Chapter 4'
 }
 
-chapter4_tf_question_2 = {
-    'question': "LDA assumes that the distribution of predictors X is normal within each class and that each class has its own covariance matrix.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'False',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_tf_question_2 = {
+#     'question': "LDA assumes that the distribution of predictors X is normal within each class and that each class has its own covariance matrix.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'False',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
-chapter4_tf_question_3 = {
-    'question': "QDA allows for class-specific covariance matrices, making it more flexible than LDA.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'True',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_tf_question_3 = {
+#     'question': "QDA allows for class-specific covariance matrices, making it more flexible than LDA.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'True',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
-chapter4_tf_question_4 = {
-    'question': "Naive Bayes classifier assumes that within each class, the predictors are independent.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'True',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_tf_question_4 = {
+#     'question': "Naive Bayes classifier assumes that within each class, the predictors are independent.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'True',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
-chapter4_tf_question_5 = {
-    'question': "The naive Bayes classifier can only be applied when the predictors are normally distributed.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'False',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_tf_question_5 = {
+#     'question': "The naive Bayes classifier can only be applied when the predictors are normally distributed.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'False',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
-chapter4_tf_question_6 = {
-    'question': "In QDA, the decision boundary can only be linear.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'False',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_tf_question_6 = {
+#     'question': "In QDA, the decision boundary can only be linear.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'False',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
-chapter4_tf_question_7 = {
-    'question': "LDA is preferred over QDA when the assumption of a common covariance matrix across classes is strongly violated.",
-    'options_list': ['True', 'False'],
-    'correct_answer': 'False',
-    'chapter_information': 'ISLR Chapter 4'
-}
+# chapter4_tf_question_7 = {
+#     'question': "LDA is preferred over QDA when the assumption of a common covariance matrix across classes is strongly violated.",
+#     'options_list': ['True', 'False'],
+#     'correct_answer': 'False',
+#     'chapter_information': 'ISLR Chapter 4'
+# }
 
 chapter3_tf_question_8 = {
     'question': "Odds are defined as the probability that an event will happen divided by the probability that it will not happen.",

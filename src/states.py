@@ -3,6 +3,7 @@ from src.sa_hw_questions import COURSE_MPC_QUESTIONS
 from src.transcript_questions import TRANSCRIPT_MPC_QUESTIONS
 from src.knowledge_check_questions import KC_MPC_QUESTIONS
 from src.additional_reading_questions import READING_MPC_QUESTIONS
+from src.open_questions import OPEN_QUESTIONS
 
 #====================TOKEN===================
 class Token():
@@ -43,4 +44,15 @@ class Token():
         print('mpc_idxs: ',mpc_idxs, type(mpc_idxs))
         print('______________________________________________')
         for idx in mpc_idxs:
+            self.mpc_questions.append(review_questions[idx])
+
+    def initialize_open_questions(self):
+        self.STATE = 'open'
+        review_questions = OPEN_QUESTIONS
+        list_length = len(review_questions)
+        open_idxs = np.random.choice(range(list_length), size=3, replace=False)
+        # print('______________________________________________')
+        # print('mpc_idxs: ',mpc_idxs, type(mpc_idxs))
+        # print('______________________________________________')
+        for idx in open_idxs:
             self.mpc_questions.append(review_questions[idx])
