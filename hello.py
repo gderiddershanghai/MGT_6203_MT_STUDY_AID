@@ -28,32 +28,29 @@ def review_questions():
     st.markdown(f"# {list(page_names_to_funcs.keys())[1]}")
     st.write('self assessment and knowledge check questions')
     sa_questions()
-    # st.button("Re-run", on_click=st.experimental_rerun)
+
 
 def reading_questions():
     st.markdown(f"# {list(page_names_to_funcs.keys())[2]}")
     st.write('multiple choice questions based on the readings')
     generate_reading_questions()
-    # st.button("Re-run", on_click=st.experimental_rerun)
 
 def transcript_questions():
     st.markdown(f"# {list(page_names_to_funcs.keys())[3]}")
     st.write('multiple choice questions based on lecture transcripts')
     generate_transcript_questions()
-    # st.button("Re-run", on_click=st.experimental_rerun)
+
 
 def open_ended_questions():
     import streamlit as st
     st.markdown(f"# {list(page_names_to_funcs.keys())[4]}")
     st.write('Open ended Questions')
     generate_open_questions()
-    # st.button("Re-run", on_click=st.experimental_rerun)
 
 def chart_questions():
     import streamlit as st
     st.markdown(f"# {list(page_names_to_funcs.keys())[5]}")
     st.write('Chart & Graph Intepretation - NOT DONE YET')
-    # st.button("Re-run", on_click=st.experimental_rerun)
 
 def reset_or_initialize_state():
     if 'token' in st.session_state:
