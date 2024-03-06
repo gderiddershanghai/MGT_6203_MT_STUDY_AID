@@ -52,4 +52,4 @@ def generate_image_questions():
             if question == correct_answer:
                 st.success('Great work!')
             else:
-                st.error(f"Ai, the correct answer was {correct_answer}")
+                st.error(f"The correct answer was {correct_answer}")
