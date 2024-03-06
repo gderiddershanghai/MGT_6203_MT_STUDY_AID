@@ -4,6 +4,7 @@ from src.transcript_page2 import generate_transcript_questions
 from src.review_page1 import sa_questions
 from src.reading_page3 import generate_reading_questions
 from src.islr_long_form_questions_page5 import generate_open_questions
+from src. image_questions_page4 import generate_image_questions
 
 def intro():
     import streamlit as st
@@ -50,7 +51,8 @@ def open_ended_questions():
 def chart_questions():
     import streamlit as st
     st.markdown(f"# {list(page_names_to_funcs.keys())[5]}")
-    st.write('Chart & Graph Intepretation - NOT DONE YET')
+    st.write('Chart & Graph Intepretation')
+    generate_image_questions()
 
 def reset_or_initialize_state():
     if 'token' in st.session_state:
@@ -62,7 +64,7 @@ page_names_to_funcs = {
     "Course Readings": reading_questions,
     "Lecture Videos": transcript_questions,
     "Open Ended": generate_open_questions,
-    "Charts & Code": chart_questions
+    "Charts & Code": generate_image_questions
 }
 
 if 'current_demo' not in st.session_state:
