@@ -27,12 +27,12 @@ question_4 = {
     'chapter_information': 'Week 2, page 24 slide 2'
 }
 
-question_5 = {
-    'question': "How much more would a person in California expect to pay per day vs a person in New York of the same age, given the regression model and coefficients?",
-    'options_list': ['$5', '$-5', '$10', '$-15'],
-    'correct_answer': '$10',
-    'chapter_information': 'Week 2, Page 27 slide 2'
-}
+# question_5 = {
+#     'question': "How much more would a person in California expect to pay per day vs a person in New York of the same age, given the regression model and coefficients?",
+#     'options_list': ['$5', '$-5', '$10', '$-15'],
+#     'correct_answer': '$10',
+#     'chapter_information': 'Week 2, Page 27 slide 2'
+# }
 
 question_6 = {
     'question': "In a linear regression model with one qualitative (categorical) predicting variable with 4 values, we need to include 4 dummy variables.",
@@ -41,12 +41,12 @@ question_6 = {
     'chapter_information': 'Week 2, page 20 slide 2'
 }
 
-question_7 = {
-    'question': "Based on the following regression model summary (Note: the base case is Age = Young), what is the Amount Spent by a Middle-aged customer if his/her salary is 10000?",
-    'options_list': ['20 – 6.12', '20 – 6.12 - 4.81', '20 – 6.12 +23.28', '20'],
-    'correct_answer': '20 – 6.12 - 4.81',
-    'chapter_information': 'Lesson 2 / Video 4 / Slides 1 – 4'
-}
+# question_7 = {
+#     'question': "Based on the following regression model summary (Note: the base case is Age = Young), what is the Amount Spent by a Middle-aged customer if his/her salary is 10000?",
+#     'options_list': ['20 – 6.12', '20 – 6.12 - 4.81', '20 – 6.12 +23.28', '20'],
+#     'correct_answer': '20 – 6.12 - 4.81',
+#     'chapter_information': 'Lesson 2 / Video 4 / Slides 1 – 4'
+# }
 
 question_8 = {
     'question': "An interaction term is used to model how the synergies between multiple variables impact the response variable.",

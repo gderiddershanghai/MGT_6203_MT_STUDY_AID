@@ -18,7 +18,7 @@ def generate_image_questions():
         st.markdown(custom_css, unsafe_allow_html=True)
 
     def question_generator(label, options, question_key):
-        answer = question = st.radio(label='Please select the correct answer', options=options, key=question_key)
+        answer = st.radio(label='Please select the correct answer', options=options, key=question_key)
         return answer
 
     # Check if 'token' is already in the session state, otherwise initialize it
@@ -52,4 +52,4 @@ def generate_image_questions():
             if question == correct_answer:
                 st.success('Great work!')
             else:
-                st.error(f"The correct answer was {correct_answer}")
+                st.info(f"The correct answer was {correct_answer}")
